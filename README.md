@@ -34,6 +34,10 @@ Help received from TA's and my fellow peers in the UCB Fullstack Bootcamp.
 N/A
 ## Links
 
+[Deployed Application]()
+
+[GitHub Repo](https://github.com/Gagucci/014-Tech-Blog.git)
+
 ## Questions
 
 For any questions, concerns, or contributions you can reach me at KevinGagante@Gmail.com or check out my GitHub page at https://github.com/Gagucci.

@@ -4,7 +4,10 @@
   "description": "- [Installation](#installation)\r - [Usage](#usage)\r - [License](#license)\r - [Contributions](#contributions)\r - [Images](#images)\r - [Links](#links)",
   "main": "server.js",
   "scripts": {
-    "test": "jest"
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seeds": "npm install",
+    "test": "npm install"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,27 @@
   "bugs": {
     "url": "https://github.com/Gagucci/014-Tech-Blog/issues"
   },
-  "homepage": "https://github.com/Gagucci/014-Tech-Blog#readme"
+  "homepage": "https://github.com/Gagucci/014-Tech-Blog#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-session-sequelize": "^7.1.7",
+    "dayjs": "^1.11.9",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "express-session": "^1.17.3",
+    "handlebars": "^4.7.8",
+    "mysql2": "^3.6.0",
+    "sequelize": "^6.32.1",
+    "nodemon": "3.0.1",
+    "socket.io": "4.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.46.0",
+    "prettier": "^3.0.1"
+  },
+  "engines": {
+    "node": "18.x"
+  }
 }
+
