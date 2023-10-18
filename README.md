@@ -2,6 +2,8 @@
 
 ## Description
   
+  The goal of this assignment was to build a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. This site was built completely from scratch and deployed to Heroku. The app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -10,14 +12,13 @@
 - [Contributions](#contributions)
 - [Images](#images)
 - [Links](#links)
+- [Questions](#questions)
 
 ## Installation
 
 Clone the repo and run `npm install` to install dependencies. Afterwards run `node index.js` to start the application.`
 
 ## Usage
-
-
 
 ## License
 
@@ -28,6 +29,11 @@ For more information visit [here](https://opensource.org/licenses/MIT).
 
 ## Contributions
 
+Help received from TA's and my fellow peers in the UCB Fullstack Bootcamp.
 ## images
-
+N/A
 ## Links
+
+## Questions
+
+For any questions, concerns, or contributions you can reach me at KevinGagante@Gmail.com or check out my GitHub page at https://github.com/Gagucci.
