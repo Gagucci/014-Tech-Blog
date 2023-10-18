@@ -1,0 +1,19 @@
+{
+  "name": "014-tech-blog",
+  "version": "1.0.0",
+  "description": "- [Installation](#installation)\r - [Usage](#usage)\r - [License](#license)\r - [Contributions](#contributions)\r - [Images](#images)\r - [Links](#links)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gagucci/014-Tech-Blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gagucci/014-Tech-Blog/issues"
+  },
+  "homepage": "https://github.com/Gagucci/014-Tech-Blog#readme"
+}
