@@ -17,4 +17,31 @@ const hbs = exphbs.create({ helpers });
 // initialize session
 const sess = {
     secret: process.env.SECRET,
+    cookie: {
+        // session expires after 10 minutes
+        expires: 10 * 60 * 1000,
+        secure: false,
+        httpOnly: true,
+        sameSite: "strict"
+    },
+    resave: false,
+    saveUninitialized: true,
+    store: new SequelizeStore({
+        db: sequelize
+    })
 };
+
+app.use(session(sess));
+
+// set handlebars as the default template engine
+app.engine("handlebars", hbs.engine);
+app.set("view engine", "handlebars");
+
+// express middleware
+app.use(express.json());
+// parse incoming string or array data
+app.use(express.urlencoded({ extended: true }));
+// turn on routes
+app.use(express.static('utils'));
+app.use(express.static(path.join(__dirname, "public")));
+
