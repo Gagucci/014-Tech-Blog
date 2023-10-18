@@ -2,7 +2,7 @@
   "name": "014-tech-blog",
   "version": "1.0.0",
   "description": "- [Installation](#installation)\r - [Usage](#usage)\r - [License](#license)\r - [Contributions](#contributions)\r - [Images](#images)\r - [Links](#links)",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "jest"
   },
