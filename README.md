@@ -34,7 +34,7 @@ Help received from TA's and my fellow peers in the UCB Fullstack Bootcamp.
 N/A
 ## Links
 
-[Deployed Application]()
+[Deployed Application](https://git.heroku.com/gagucci-tech-blog.git)
 
 [GitHub Repo](https://github.com/Gagucci/014-Tech-Blog.git)
 
