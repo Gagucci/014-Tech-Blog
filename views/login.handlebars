@@ -1,0 +1,18 @@
+{{!-- Import withAuth for authentication --}}
+{{#withAuth}}
+
+{{!-- Create login form --}}
+<form>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <button type="submit">Login</button>
+</form>
+
+{{!-- Create link to sign-up page --}}
+<a href="/sign-up">Don't have an account? Sign up here!</a>
+
+{{/withAuth}}

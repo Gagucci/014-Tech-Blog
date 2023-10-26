@@ -1,0 +1,26 @@
+{{!-- Display the user's name --}}
+<h1>Welcome, {{user.username}}!</h1>
+
+{{!-- Display a link to create a new post --}}
+<a href="/new-post">Create a New Post</a>
+
+{{!-- Display the user's posts --}}
+{{#if user.posts.length}}
+<h2>Your Posts:</h2>
+<ul>
+    {{#each user.posts}}
+    {{!-- Only display the post if the user is the author --}}
+    {{#if (eq this.authorId user.id)}}
+    <li>
+        <h3>{{this.title}}</h3>
+        <p>{{this.body}}</p>
+        <p>Created on {{this.createdAt}}</p>
+        <a href="/edit-post/{{this.id}}">Edit</a>
+        <a href="/delete-post/{{this.id}}">Delete</a>
+    </li>
+    {{/if}}
+    {{/each}}
+</ul>
+{{else}}
+<p>You haven't created any posts yet.</p>
+{{/if}}
