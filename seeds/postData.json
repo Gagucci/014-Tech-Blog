@@ -1,0 +1,17 @@
+[
+    {
+        "id": "1",
+        "title": "first post",
+        "content": "shrimp is bugs"
+    },
+    {
+        "id": "2",
+        "title": "second post",
+        "content": "shrimp is fish"
+    },
+    {
+        "id": "3",
+        "title": "third post",
+        "content": "shrimp is weirdly shaped crabs"
+    }
+]
